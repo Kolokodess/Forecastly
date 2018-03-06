@@ -1,0 +1,337 @@
+
+h1 {
+  font-family: 'Cookie';
+  text-align: center;
+  font-weight: bold;
+  color: #212121;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+}
+
+
+.weather{
+  color: #858585;
+  /*background: #e0ffff; */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1WE9yC5sYWVZXP9AnMK_ImZNZBBGRn4RWcd_Ito1szk8t3Ae-w);
+  background-size: cover;
+
+}
+
+.weather-body {
+  /*border: 0.2px solid;
+  border-color: #fff;*/
+  /*background-color: white;*/
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.temperature {
+  margin-top: 50px;
+}
+
+.daily {
+  margin-top: 30px;
+} 
+
+.today-summary {
+  margin-top: 20px;
+}
+
+ .year {
+   font-size: 15px;
+   margin-top: 16px;
+   margin-left: 20px;
+   color:  #212121;
+   font-family: 'Lora';
+ }
+
+ /* Smaller Phone */
+ @media (min-width: 320px) {
+   .year {
+     font-size: 10px;
+     margin-top: 120px;
+     margin-left: -3px;
+   }
+ }
+
+ /* Smart Phone */
+ @media (min-width: 767px) {
+   .year {
+     font-size: 20px;
+     margin-top: 120px;
+     margin-left: -3px;
+   }
+ }
+
+ /* Laptop */
+ @media (min-width: 992px) {
+   .year {
+     font-size: 15px;
+   }
+ }
+
+ .month {
+  font-family: 'Lora';
+  color:  #212121;
+ }
+ 
+
+ 
+ .date0 {
+   padding-top: 125px;
+   font-family: 'Lora';
+   font-weight: 800;
+   color:  #212121;
+ }
+
+/* Small Phone */
+ @media (min-width: 320px) {
+   .date0 {
+   padding-top: 0px;
+   }
+ }
+
+ /* Smart Phone */ 
+ @media (min-width: 767px) {
+  .date0 {
+   padding-top: 0px;
+   }
+ }
+
+
+/* Laptop */
+ @media (min-width: 992px) {
+   .date0 {
+   padding-top: 185px;
+   font-weight: 800;
+   }
+ }
+
+/* Bigger Laptops */
+ @media (min-width: 1024px) {
+   .date0 {
+   padding-top: 95px;
+   font-weight: 800;
+   }
+ }
+
+ @media (min-width: 1199px) {
+   .date0 {
+   padding-top: 95px;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .date0 {
+   padding-top: 127px;
+
+   }
+ }
+
+/* Desktop */
+ @media (min-width: 1440px) {
+   .date0 {
+   padding-top: 95px;
+   font-weight: 800;
+
+   }
+ }
+ 
+ .day0 {
+   font-size: 25px;
+   color: #212121;
+   font-family: 'Lora';
+ }
+ 
+ .day1,
+ .day2,
+ .day3,
+ .day4,
+ .day5,
+ .day6 {
+   font-size: 20px;
+   color: #4b4c4c;
+   font-family: 'Lora';
+ }
+ 
+ .date0 {
+   font-size: 25px;
+   line-height: 55px;
+   color: #828282;
+   font-family: 'Lora';
+ }
+ /* Smart Phone */
+ 
+ @media(min-width: 767px) {
+   .date0 {
+     font-size: 12px;
+     font-family: 'Lora';
+     color:  #212121;
+   }
+ }
+ 
+ .date1,.date2,.date3,.date4,.date5,.date6 {
+   font-size: 20px;
+   line-height: 20px;
+   color: #4b4c4c;
+   font-family: 'Lora';
+ }
+
+ /* Smart Phone */
+ @media(min-width: 767px) {
+   .date1,
+   .date2,
+   .date3,
+   .date4,
+   .date5 {
+     font-size: 20px;
+   }
+ }
+
+
+.time {
+   color: #212121;
+   font-size: 25px;
+   font-family: 'Lora';
+ }
+ /* Smart Phone */
+ 
+ @media (min-width: 767px) {
+   .time {
+     font-size: 24px;
+     font-family: 'Lora';
+   }
+ }
+ /* Laptop */
+ 
+ @media (min-width: 992px) {
+   .time {
+     font-size: 25px;
+     font-family: 'Lora';
+   }
+ }
+
+
+.temp0 {
+   color: #212121;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 50px;
+ }
+ /* Smart Phone */
+ 
+ @media (min-width: 767px) {
+   .temp0 {
+     color: #212121;
+     font-size: 28px;
+   }
+ }
+ /* Laptop */
+ 
+ @media (min-width: 992px) {
+   .temp0 {
+     font-size: 30px;
+     color: #212121;
+   }
+ }
+
+.temp1, .temp2, .temp3, .temp4, .temp5, .temp6 {
+    color: #4b4c4c;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    /*line-height: 20px;*/
+}
+
+
+.forecast0 {
+   color: #212121;
+   font-size: 15px;
+   padding-left: 15px;
+   font-family: 'Lora';
+ }
+
+
+.forecast1, .forecast2, .forecast3, .forecast4, .forecast5, .forecast6 {
+  color: #4b4c4c;
+  font-size: 12px;
+  font-family: 'Lora';
+  line-height: 1.5;
+}
+
+
+.icon0 {
+   color: #212121;
+   font-size: 72px;
+   margin-top: 40px;
+   /*background-color: #000;*/
+   border-radius: 10px;
+   padding: 10px;
+ }
+ /* Smaller Phone */
+ 
+ @media (min-width: 320px) {
+   .icon0 {
+     color: #212121;
+     font-size: 60px;
+     /*background-color: #000;*/
+     border-radius: 10px;
+     padding: 10px;
+   }
+ }
+ /* Smart Phone */
+ 
+ @media (min-width: 767px) {
+   .icon0 {
+     color: #212121;
+     font-size: 55px;
+     /*background-color: #000;*/
+     border-radius: 10px;
+     padding: 10px;
+   }
+ }
+ /* Laptop */
+ 
+ @media (min-width: 992px) {
+   .icon0 {
+     color: #212121;
+     font-size: 72px;
+     /*background-color: #000;*/
+     border-radius: 10px;
+     padding: 10px;
+   }
+ }
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+  color: #212121
+}
+ 
+ .location {
+   color:  #212121;
+   font-size: 15px;
+   font-family: 'Lora';
+ }
+ /* Smart Phone */
+ 
+ @media (min-width: 767px) {
+   .location {
+     font-size: 10px;
+     font-family: 'Lora';
+   }
+ }
+ /* Laptop */
+ 
+ @media (min-width: 992px) {
+   .location {
+     font-size: 15px;
+     font-family: 'Lora';
+   }
+ }
+ 
+
+ 
+ 
+ 
