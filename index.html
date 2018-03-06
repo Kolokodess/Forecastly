@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Forecastly</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Boostrap 3 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Weather icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css"> 
+
+	<!-- Font awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Font Import -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600' rel='stylesheet'> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Cookie|Lora" rel="stylesheet">
+
+	<!-- Custom style -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Moment.JS script -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
+
+	<!-- Custom script -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body class="weather">
+	<div class="container-fluid">
+		
+
+			
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<h1> Forecastly </h1>
+					<div class="weather-body">
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="icon0"></div>
+										<!-- <div class="forecast0"></div> -->
+									</div>
+									
+
+									<div class="col-md-6 temperature">
+										<span class="temp0"></span>
+										<div class="convertTemp">
+											<button type="button" id="temp-unit" class="btn btn-primary">C&deg;</button>
+											<button type="button" id="temp-unit" class="btn btn-primary">F&deg;</button>
+										</div>
+									</div>
+									<!-- <div class="forecast0"></div> -->
+								</div>
+							</div>
+
+							<div class="col-md-6 temperature">
+								<div>
+									<span class="day0"></span>, 
+									<span class="time"></span>
+								</div>
+								<div>
+									<span class="date0"></span>
+									<span class="month"></span>,
+									<span class="year"></span>
+								</div>
+								<div class="location"></div>
+								<!-- <div class="country text-center"></div> -->
+							</div>
+						</div>
+
+						<div class="row today-summary">
+							<div class="col-md-12">
+								<div class="forecast0"></div>
+							</div>
+						</div>
+						<!-- End current day's forecast -->
+
+						
+						<div class="row daily">
+
+							<!-- Start day1 forecast -->
+							<div class="col-md-2">
+								<div class="day1 text-uppercase text-center"></div><br/>
+								<div class="date1 text-center"></div>
+								<div class="temp1 text-center"></div>
+								<div class="icon1 text-center"></div>
+								<div class="forecast1 text-center"></div>
+							</div>
+							<!-- End day1 forecast -->
+
+							<!-- Start day2 forecast -->
+							<div class="col-md-2">
+								<div class="day2 text-uppercase text-center"></div><br/>
+								<div class="date2 text-center"></div>
+								<div class="temp2 text-center"></div>
+								<div class="icon2 text-center"></div>
+								<div class="forecast2 text-center"></div>
+							</div>
+							<!-- End day2 forecast -->
+
+							<!-- Start day3 forecast -->
+							<div class="col-md-2">
+								<div class="day3 text-uppercase text-center"></div><br/>
+								<div class="date3 text-center"></div>
+								<div class="temp3 text-center"></div>
+								<div class="icon3 text-center"></div>
+								<div class="forecast3 text-center"></div>
+							</div>
+							<!-- End day3 forecast -->
+
+							<!-- Start day4 forecast -->
+							<div class="col-md-2">
+								<div class="day4 text-uppercase text-center"></div><br/>
+								<div class="date4 text-center"></div>
+								<div class="temp4 text-center"></div>
+								<div class="icon4 text-center"></div>
+								<div class="forecast4 text-center"></div>
+							</div>
+							<!-- End day4 forecast -->
+
+							<!-- Start day5 forecast -->
+							<div class="col-md-2">
+								<div class="day5 text-uppercase text-center"></div><br/>
+								<div class="date5 text-center"></div>
+								<div class="temp5 text-center"></div>
+								<div class="icon5 text-center"></div>
+								<div class="forecast5 text-center"></div>
+							</div>
+							<!-- End day5 forecast -->
+
+							<!-- Start day6 forecast -->
+							<div class="col-md-2">
+								<div class="day6 text-uppercase text-center"></div><br/>
+								<div class="date6 text-center"></div>
+								<div class="temp6 text-center"></div>
+								<div class="icon6 text-center"></div>
+								<div class="forecast6 text-center"></div>
+							</div>
+							<!-- End day6 forecast -->
+
+						</div>
+					</div>
+					<p>Powered by <a href="https://darksky.net/">DarkSky</a></p>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
